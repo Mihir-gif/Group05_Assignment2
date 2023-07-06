@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* Assignment 2 | COMP1073 Client-Side JavaScript */
+    
+    body {
+        background-color: rgba(236, 155, 4, 0.889);
+    }
+    .head{
+        text-align: center;
+
+    }
+    .thumbnails {
+        filter: grayscale(100%);
+    }
+
+   
+
+    .thumbnails ul li{
+        display: inline;
+    }
+
+    .active {
+        filter: none;
+    }
+
+    .image1,.image2,.image3,.image4,.image5{
+        /*margin-left: 500px;*/
+    }
+
+
+
