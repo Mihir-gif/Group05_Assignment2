@@ -1,30 +1,29 @@
+/* Harshil Thakkar 200522591
+Mihir Bhavsar 200522598
+Harsh Patel 200529704
+Assignment 2 JavaScript */
+
 @charset "utf-8";
-/* Assignment 2 | COMP1073 Client-Side JavaScript */
-    
-    body {
-        background-color: rgba(236, 155, 4, 0.889);
-    }
-    .head{
-        text-align: center;
 
-    }
-    .thumbnails {
-        filter: grayscale(100%);
-    }
+body {
+    background-color: rgba(6, 118, 115, 0.889);
+    margin-left: 100px;
+}
 
-   
+.heading {
+    text-align: center;
+    font-size: 30px;
+}
 
-    .thumbnails ul li{
-        display: inline;
-    }
+.small-images {
+    filter: grayscale(100%);
+}
 
-    .active {
-        filter: none;
-    }
+.small-images ul li {
+    display: inline;
+    text-decoration: none;
+}
 
-    .image1,.image2,.image3,.image4,.image5{
-        /*margin-left: 500px;*/
-    }
-
-
-
+.active {
+    filter: none;
+}
